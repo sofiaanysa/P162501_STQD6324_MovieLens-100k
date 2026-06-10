@@ -1,7 +1,7 @@
 # STQD6324 Data Management — Assignment 2
 ### MovieLens 100k Pipeline: Apache Spark & Cassandra
 
-**Student:** Sofia Annisa Binti Jairi · P162501  
+**Student:** SOFIA ANNISA BINTI JAIRI · P162501  
 **Semester:** 2, 2025/2026
 
 ---
