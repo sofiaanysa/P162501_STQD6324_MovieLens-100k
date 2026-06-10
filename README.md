@@ -35,8 +35,9 @@
 
 This project implements a Python-based big data pipeline using **Apache Spark** and **Apache Cassandra** to analyse the [MovieLens 100k dataset](https://grouplens.org/datasets/movielens/100k/). Raw data files are ingested as Spark RDDs, transformed into DataFrames, queried with Spark SQL, and persisted to Cassandra for validation.
 
-**Student:** SOFIA ANNISA BINTI JAIRI · `P162501`  
-**Course:** STQD6324 Data Management · Semester 2, 2025/2026
+**Student:** SOFIA ANNISA BINTI JAIRI ·
+**Matric ID:** P162501 ·
+**Course:** STQD6324 Data Management · 
 
 ---
 
