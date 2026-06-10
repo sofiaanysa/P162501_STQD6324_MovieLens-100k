@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎬 MovieLens 100k Data Pipeline
+# MovieLens 100k Data Pipeline
 ### STQD6324 Data Management — Assignment 2
 
 **Apache Spark · Apache Cassandra · Python**
@@ -15,7 +15,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Analytical Tasks](#analytical-tasks)
@@ -35,7 +35,7 @@
 
 This project implements a Python-based big data pipeline using **Apache Spark** and **Apache Cassandra** to analyse the [MovieLens 100k dataset](https://grouplens.org/datasets/movielens/100k/). Raw data files are ingested as Spark RDDs, transformed into DataFrames, queried with Spark SQL, and persisted to Cassandra for validation.
 
-**Student:** Sofia Annisa Binti Jairi · `P162501`  
+**Student:** SOFIA ANNISA BINTI JAIRI · `P162501`  
 **Course:** STQD6324 Data Management · Semester 2, 2025/2026
 
 ---
@@ -76,13 +76,13 @@ Each task includes a **bar/histogram visualisation** and a **written interpretat
 |---|---|---|
 | Python | 3.12 | Colab default |
 | PySpark | **4.0.2** | Installed via `pip` |
-| Java | **OpenJDK 17** | ⚠️ Required for PySpark 4.x — see note below |
+| Java | **OpenJDK 17** |  Required for PySpark 4.x — see note below |
 | Apache Cassandra | 4.1.3 | Downloaded & started by the notebook |
 | cassandra-driver | 3.28+ | Python driver for Cassandra I/O |
 | pandas | 2.x | DataFrame bridge for Cassandra reads |
 | matplotlib | 3.x | Visualisations |
 
-> **⚠️ Java Version Warning**  
+> ** Java Version Warning**  
 > PySpark 4.0 compiles its JARs to Java class file version **61.0** (Java 17).  
 > Running under Java 11 (max class version 55.0) raises `UnsupportedClassVersionError`, which appears as `JAVA_GATEWAY_EXITED`.  
 > The notebook automatically sets `JAVA_HOME` to Java 17 before Spark starts.  
@@ -112,7 +112,7 @@ The 19 genre flag columns in `u.item` are binary (0/1): `unknown`, `Action`, `Ad
    *(File → Upload notebook → select `P162501_STQD6324_MovieLens_100k.ipynb`)*
 
 2. **Upload the three dataset files**  
-   Click the 📁 folder icon in the left sidebar → Upload → select `u.data`, `u.user`, `u.item`  
+   Click the folder icon in the left sidebar → Upload → select `u.data`, `u.user`, `u.item`  
    They will land in `/content/` which the notebook checks automatically.
 
 3. **Run all cells in order** (`Runtime → Run all`)  
@@ -212,7 +212,7 @@ Dataset Files
          Read back → Spark DataFrames
                        │
                        ▼
-                  Validation ✅
+                  Validation 
 ```
 
 ---
