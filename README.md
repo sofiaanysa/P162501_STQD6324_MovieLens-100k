@@ -2,7 +2,6 @@
 ### MovieLens 100k Pipeline: Apache Spark & Cassandra
 
 **Student:** SOFIA ANNISA BINTI JAIRI · P162501  
-**Semester:** 2, 2025/2026
 
 ---
 
