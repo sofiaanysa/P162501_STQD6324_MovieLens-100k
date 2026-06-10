@@ -148,11 +148,11 @@ jupyter notebook P162501_STQD6324_MovieLens_100k.ipynb
 |---|---|---|
 | Python | 3.12 | |
 | PySpark | 4.0.2 | |
-| Java | OpenJDK **17** | ⚠️ Required for PySpark 4.x |
+| Java | OpenJDK **17** |  Required for PySpark 4.x |
 | Cassandra | 4.1.3 | Runs under Java 11 (separate subprocess) |
 | cassandra-driver | 3.28+ | |
 
-> **⚠️ Java Version Warning**  
+> ** Java Version Warning**  
 > PySpark 4.0 requires Java 17. Running under Java 11 causes `JAVA_GATEWAY_EXITED`.  
 > The notebook sets `JAVA_HOME` to Java 17 automatically before Spark starts.  
 > Cassandra is launched in a separate subprocess with its own Java 11 `JAVA_HOME`, so both coexist cleanly.
