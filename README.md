@@ -12,13 +12,13 @@
 |---|---|
 | Python | 3.12 |
 | PySpark | 4.0.2 |
-| Java | OpenJDK 17 ⚠️ |
+| Java | OpenJDK 17  |
 | Cassandra | 4.1.3 |
 | cassandra-driver | 3.28+ |
 | pandas | 2.x |
 | matplotlib | 3.x |
 
-> ⚠️ PySpark 4.0 requires **Java 17**. Java 11 will cause `JAVA_GATEWAY_EXITED`. The notebook handles this automatically.
+>  PySpark 4.0 requires **Java 17**. Java 11 will cause `JAVA_GATEWAY_EXITED`. The notebook handles this automatically.
 
 ---
 
